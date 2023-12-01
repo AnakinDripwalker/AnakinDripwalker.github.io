@@ -6,7 +6,7 @@ var t = setInterval(alternance, 120);
 
 function alternance() {
     for (let i = 0; i < img1.length; i++) {
-        if (img1[i].src == "http://127.0.0.1/img/pop.png") {
+        if (img1[i].src == "https://anakindripwalker.github.io/img/pop.png") {
             img1[i].src = "img/pop2.png";
         }
         else {
