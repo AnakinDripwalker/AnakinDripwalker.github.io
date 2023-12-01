@@ -1,0 +1,19 @@
+/* footer */
+footer {
+    display: flex;
+    margin: 4% 0;
+    gap: 1%;
+}
+
+footer > button {
+    padding: 0.5%;
+    border-radius: 15px;
+    background-color: rgb(224, 224, 224);
+    border: 0;
+}
+
+footer > button:hover {
+    background-color: rgb(36, 36, 36);
+    color: rgb(221, 221, 221);
+    transition: 0.4s;
+}

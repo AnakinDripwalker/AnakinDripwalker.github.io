@@ -1,0 +1,17 @@
+img {
+    width: 180px;
+    height: 180px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+    margin-top: 100%;
+}
+
+section > img {
+    width: 100px;
+    height: 100px;
+}
